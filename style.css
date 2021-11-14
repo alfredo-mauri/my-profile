@@ -1,0 +1,146 @@
+body {
+  background-color: rgba(230, 236, 245, 0.9);
+}
+h1 {
+  font-family: Lobster;
+  color: #6b80b3;
+  letter-spacing: 1px;
+  font-size: 40px;
+}
+p,
+h2,
+a {
+  font-family: Roboto;
+}
+h2 {
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 7px;
+  color: white;
+}
+p {
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 162%;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+/* First CSS Card */
+.card-blue {
+  text-align: center;
+  background-color: rgba(197, 219, 252, 0.4);
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 30px 150px 50px 150px;
+}
+.img-oval {
+  width: 130px;
+  border-radius: 25px;
+  box-shadow: 7px 7px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.btn-blue {
+  color: white;
+  background: rgb(36, 65, 131);
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 13px 25px;
+}
+.btn-blue:hover {
+  background: rgb(2, 0, 95);
+}
+#introduction {
+  margin-top: 35px;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+/* Cards CSS */
+.card-picture {
+  height: 190px;
+  margin: 90px 0px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 30px;
+  border: 2px solid black;
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.25);
+}
+.card-text {
+  width: 50%;
+  text-align: center;
+  padding: 10px 10px;
+}
+.card-picture p {
+  color: white;
+}
+.picture-half {
+  width: 350px;
+  height: 190px;
+  border-radius: 0px 30px 30px 0px;
+  border-left: 2px solid black;
+}
+#travelling {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url("/images/travelling.jpg");
+  background-size: cover;
+}
+#economics {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/images/economics.jpg");
+  background-size: cover;
+}
+#business-analyst h2 {
+  margin: 0;
+  margin-top: 10px;
+}
+.card-black {
+  background-color: rgba(20, 20, 20, 0.85);
+}
+.card-green {
+  background-color: rgb(142, 144, 134);
+}
+.card-brown {
+  background-color: rgba(166, 141, 111, 0.9);
+}
+
+/* Icons CSS */
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px 25px;
+}
+.list-inline i {
+  font-size: 40px;
+  color: rgb(38, 65, 131);
+}
+.list-inline i:hover {
+  color: rgb(71, 125, 255);
+}
+
+/* Media Queries */
+@media (max-width: 780px) {
+  .container {
+    width: 430px;
+  }
+  .picture-half {
+    width: 200px;
+  }
+  .card-blue {
+    padding: 30px 30px 50px 30px;
+  }
+  .card-picture p {
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: 5px;
+  }
+  #having-fun h2 {
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+}
